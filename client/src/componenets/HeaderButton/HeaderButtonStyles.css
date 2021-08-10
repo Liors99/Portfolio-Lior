@@ -1,0 +1,15 @@
+.button-container{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.button-container:hover{
+    cursor: pointer;
+    border-top: 5px solid white;
+}
