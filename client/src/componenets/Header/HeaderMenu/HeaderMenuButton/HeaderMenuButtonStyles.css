@@ -1,0 +1,11 @@
+.btn{
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+    text-align: center;  
+}
+
+
+.btn:hover{
+    cursor: pointer;
+}
