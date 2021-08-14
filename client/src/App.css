@@ -1,0 +1,9 @@
+.section{
+    position: relative;
+    top: 70px;
+}
+
+.full-section{
+    height: calc(100vh - 70px);
+    width: 100%;
+}
