@@ -1,9 +1,7 @@
 .Header{
-    width: 100%;
     height: 70px;
-    background-color: #3F59A8;
+    background-color: #3F59A8 !important;
     position: fixed;
-    top: 0;
 
     line-height: 60px;
     
