@@ -1,6 +1,8 @@
 .section{
+    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
-    top: 80px;
+    top: 70px;
 }
 
 .full-section{
