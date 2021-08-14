@@ -1,0 +1,15 @@
+.skillContainer{
+    margin: auto;
+    width: 80%;
+}
+
+.skill{
+    width: 100%;
+    background-color: aqua !important;
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+}
