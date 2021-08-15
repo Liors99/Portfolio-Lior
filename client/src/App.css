@@ -8,3 +8,10 @@
     height: calc(100vh - 70px);
     width: 100%;
 }
+
+.sectionTitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+}
