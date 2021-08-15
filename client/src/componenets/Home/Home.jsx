@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 import "../../App.css";
 import "./HomeStyles.css";
@@ -21,7 +22,7 @@ export const Home = (props) => {
                         <div className="wrapper">
                             <h2>Hi There, I'm</h2>
                             <h1> Your name </h1>
-                            <button className="contact-btn"> Contact </button>
+                            <Button className="contact-btn"> Contact </Button>
                         </div>
                     </div>
                 </Grid>
