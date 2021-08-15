@@ -1,6 +1,6 @@
 .Header{
     height: 70px;
-    background-color: #3F59A8 !important;
+    background-color: white !important;
     position: fixed;
 
     line-height: 60px;
@@ -8,11 +8,11 @@
 }
 
 
-.Header p{
+.Header h3{
     border-top: 5px solid transparent;
     margin:0;
     width: 100%;
-    color:white
+    color:black
     
 }
 

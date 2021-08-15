@@ -1,21 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
 import "./HeaderStyles.css"
 import { HeaderMenu } from './HeaderMenu/HeaderMenu';
 
-export const Header = () => {
+export const Header = (props) => {
     return (
         <AppBar className="Header">
             <Grid container>
                 <Grid item lg={6} md={4} sm={4} xs={5}>
-                    <p class="title"> Your name </p>
+                    <h3 className="title"> Your name </h3>
                 </Grid>
 
-                <HeaderMenu />
+                <HeaderMenu isSmall={props.isSmall} />
 
             </Grid>
         </AppBar>
 
     );
 }
+
+Header.propTypes = {
+    isSmall: PropTypes.bool.isRequired
+};

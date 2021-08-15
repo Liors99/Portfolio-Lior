@@ -4,9 +4,9 @@ import "./HeaderMenuButtonStyles.css";
 export const HeaderMenuButton = (props) => {
 
     return (
-        <p className="btn">
+        <h3 className="btn">
             <MenuIcon />
-        </p>
+        </h3>
 
     );
 }

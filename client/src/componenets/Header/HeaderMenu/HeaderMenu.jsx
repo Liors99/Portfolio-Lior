@@ -1,37 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { HeaderButton } from './../HeaderButton/HeaderButton';
 import Grid from '@material-ui/core/Grid';
 import { HeaderMenuButton } from './HeaderMenuButton/HeaderMenuButton';
 
 
 export const HeaderMenu = (props) => {
-    const [isWindowSmall, setIsWindowSmall] = useState(false);
-
-    //Add an event listener to the window
-    useEffect(() => {
-
-        //Gets called whenever the window is resized, checks for the window size and closes the sidebars if the length exceeds
-        const resize = () => {
-            if (window.innerWidth >= 960) {
-                setIsWindowSmall(false);
-            }
-            else {
-                setIsWindowSmall(true);
-            }
-
-        }
-
-        window.addEventListener("resize", resize);
-        resize();
-
-        return () => {
-            window.removeEventListener("resize", resize);
-        }
-    }, []);
-
-
     const drawMenu = () => {
-        if (!isWindowSmall) {
+        if (!props.isSmall) {
             return (
                 <Grid container>
                     <Grid item xs={2}> </Grid>
@@ -63,3 +39,7 @@ export const HeaderMenu = (props) => {
     );
 
 }
+
+HeaderMenu.propTypes = {
+    isSmall: PropTypes.bool.isRequired
+};

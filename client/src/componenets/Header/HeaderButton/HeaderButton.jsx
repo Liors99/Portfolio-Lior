@@ -4,9 +4,9 @@ import "./HeaderButtonStyles.css"
 export const HeaderButton = (props) => {
     return (
         <Grid item xs={2}>
-            <p className="button-container">
+            <h3 className="button-container">
                 {props.children}
-            </p>
+            </h3>
         </Grid>
 
     );
