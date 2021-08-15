@@ -1,6 +1,4 @@
 .section{
-    margin-top: 10px;
-    margin-bottom: 10px;
     position: relative;
     top: 70px;
 }
@@ -8,4 +6,11 @@
 .full-section{
     height: calc(100vh - 70px);
     width: 100%;
+}
+
+.skillsTitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
 }

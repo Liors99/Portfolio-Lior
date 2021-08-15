@@ -18,7 +18,7 @@ export const Skills = (props) => {
 
     return (
         <div className="section">
-                <h1 className = "title">Skills</h1>
+                <h1 className = "skillsTitle">Skills</h1>
             <div className = "skillContainer">
                 <Grid container spacing = {1}>
                     {drawSkills()}

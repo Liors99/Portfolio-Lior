@@ -4,12 +4,8 @@
 }
 
 .skill{
-    width: 100%;
-    background-color: aqua !important;
+    width: 80%;
+    background-color: #3F59A8 !important;
+    color: white !important;
 }
 
-.title{
-    margin: auto;
-    text-align: center;
-    font-size: xx-large;
-}
