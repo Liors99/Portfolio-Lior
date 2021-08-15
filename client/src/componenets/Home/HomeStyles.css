@@ -49,15 +49,16 @@
 }
 
 .contact-btn{
-    background-color: #3F59A8;
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    margin-top: 20px;
+    background-color: #3F59A8 !important;
+    text-transform: none !important; 
+    font-size: 20px !important;
 
-    border-radius: 10px;
-    border: none; 
-    padding: 10px 40px 10px 40px;
+    color: white !important;
+    font-size: 25px !important;
+    margin-top: 20px !important;;
+
+    border-radius: 10px !important;;
+    padding: 10px 40px 10px 40px !important;;
 }
 
 .contact-btn:hover{
