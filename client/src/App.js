@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Header } from './componenets/Header/Header';
 import { Home } from './componenets/Home/Home';
+import { Skills } from './componenets/Skills/Skills';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
     <div>
       <Header isSmall={isWindowSmall} />
       <Home isSmall={isWindowSmall} />
+      <Skills/>
     </div>
   );
 }

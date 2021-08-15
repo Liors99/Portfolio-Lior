@@ -11,7 +11,7 @@ export const Skills = (props) => {
     const drawSkills = () => {
         return AllSkils.map((skill) => { return(
         <Grid item xs = {6} sm = {4} md = {3} lg = {2}>  
-            <Chip label={skill} className = "skill"/>
+            <Chip label= {skill} className = "skill"/>
         </Grid>);
         });
     }
@@ -25,5 +25,7 @@ export const Skills = (props) => {
                 </Grid>
             </div>
         </div>
+        
+
     );
 }
