@@ -25,5 +25,7 @@ export const Skills = (props) => {
                 </Grid>
             </div>
         </div>
+        
+
     );
 }
