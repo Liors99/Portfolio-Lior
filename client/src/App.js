@@ -1,11 +1,38 @@
+import React, { useState, useEffect } from 'react';
+
 import { Header } from './componenets/Header/Header';
-import { Skills } from './componenets/Skills/Skills';
+import { Home } from './componenets/Home/Home';
 
 function App() {
+
+  const [isWindowSmall, setIsWindowSmall] = useState(false);
+
+  //Add an event listener to the window
+  useEffect(() => {
+
+    //Gets called whenever the window is resized, checks for the window size
+    const resize = () => {
+      if (window.innerWidth >= 960) {
+        setIsWindowSmall(false);
+      }
+      else {
+        setIsWindowSmall(true);
+      }
+
+    }
+
+    window.addEventListener("resize", resize);
+    resize();
+
+    return () => {
+      window.removeEventListener("resize", resize);
+    }
+  }, []);
+
   return (
     <div>
-      <Header />
-      <Skills />
+      <Header isSmall={isWindowSmall} />
+      <Home isSmall={isWindowSmall} />
     </div>
   );
 }

@@ -11,5 +11,5 @@
 
 .button-container:hover{
     cursor: pointer;
-    border-top: 5px solid white;
+    border-top: 5px solid #3F59A8;
 }
