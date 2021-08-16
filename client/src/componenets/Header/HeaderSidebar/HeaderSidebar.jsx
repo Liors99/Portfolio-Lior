@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { SwipeableDrawer, makeStyles } from '@material-ui/core';
 
 import "./HeaderSidebarStyles.css";
-import zIndex from '@material-ui/core/styles/zIndex';
 
 const useStyles = makeStyles({
     paper: {
@@ -12,10 +11,6 @@ const useStyles = makeStyles({
         display: "flex",
         justifyContent: "center",
         backgroundColor: "#3F59A8"
-    },
-
-    area: {
-        zIndex: 0
     }
 });
 
