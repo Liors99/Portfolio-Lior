@@ -1,0 +1,22 @@
+.event-icon{
+    background-color: #3F59A8 !important;
+    size: 40px !important;
+}
+
+.event-content{
+    text-align-last: left !important;
+}
+
+.event-content h2{
+    margin: 10px;
+    color: #3F59A8;
+}
+
+.event-content ul{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.event-content li{
+    text-align: left;
+}

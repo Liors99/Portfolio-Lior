@@ -1,0 +1,60 @@
+.contact-left{
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact-right{
+    text-align: center;
+}
+
+.contact-right h1{
+    margin-top: 20px;
+}
+
+.contact-input{
+    margin-bottom: 20px !important;
+    width: 80% !important;
+}
+
+
+.contact-left img{
+    height: 100%;
+}
+
+.contact-info-container{
+    margin-top: 50px;
+}
+
+.contact-info-container a{
+    text-decoration: none !important;
+    color:black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+
+    font-size: min(4vw, 25px);
+    
+}
+
+.contact-info-icon{
+    font-size: 25px !important;
+}
+
+.contact-info span{
+    margin-left: 10px;
+}
+
+.contact-button{
+    background-color: #3F59A8 !important;
+    text-transform: none !important; 
+    font-size: 20px !important;
+}
