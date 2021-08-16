@@ -1,0 +1,19 @@
+.sidebar-container{
+    align-self: center;
+}
+
+.sidebar-container h1{
+    font-size: 25px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+    color:white;
+}
+
+.sidebar-container h1:hover{
+    color: gray;
+}
+
+.swipe-area{
+    margin-top: 70px;
+}
