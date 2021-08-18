@@ -186,36 +186,52 @@ export const Contact = (props) => {
                             {loadStatusElement}
                         </div>
 
-                        <div className="contact-info">
-                            <Grid container className="contact-info-container">
 
-                                <Grid item sm={6} xs={12}>
+                        <Grid container className="contact-info-container">
+
+                            <Grid item sm={6} xs={12}>
+                                <div className="contact-info">
                                     <a href="mailto:test@email.com">
                                         <EmailIcon className="contact-info-icon" />
                                         <span> test@email.com </span>
                                     </a>
+                                </div>
 
+
+
+                            </Grid>
+                            <Grid item sm={6} xs={12}>
+                                <div className="contact-info">
                                     <a href="tel:123-456-7890">
                                         <PhoneIcon className="contact-info-icon" />
                                         <span> 123-456-7890 </span>
                                     </a>
-                                </Grid>
-                                <Grid item sm={6} xs={12}>
+                                </div>
+
+                            </Grid>
+                            <Grid item sm={6} xs={12}>
+                                <div className="contact-info">
                                     <a href="https://www.linkedin.com/in/williamhgates/">
                                         <LinkedInIcon className="contact-info-icon" />
                                         <span> /in/williamhgates/ </span>
                                     </a>
+                                </div>
 
+
+
+                            </Grid>
+                            <Grid item sm={6} xs={12}>
+                                <div className="contact-info">
                                     <a href="https://github.com/">
                                         <GitHubIcon className="contact-info-icon" />
                                         <span> https://github.com </span>
                                     </a>
-
-                                </Grid>
-
+                                </div>
                             </Grid>
 
-                        </div>
+                        </Grid>
+
+
 
 
                     </div>

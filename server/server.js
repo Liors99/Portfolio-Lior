@@ -5,7 +5,11 @@ require('dotenv').config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: process.env.CLIENT_ADDRESS
+    }
+));
 app.use(express.json());
 
 const nodemailer = require('nodemailer');
