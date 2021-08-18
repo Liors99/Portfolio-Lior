@@ -86,7 +86,7 @@ export const Contact = (props) => {
         if (name !== "" && email !== "" && message !== "" & !isInTransit) {
 
             //Show the loading bar
-            setLoadStatusElemet(<CircularProgress />);
+            setLoadStatusElemet(<CircularProgress style={{ color: "#3F59A8" }} />);
 
             //Set the state to indicate that it is in transit
             setIsIntTransit(true);
@@ -96,7 +96,7 @@ export const Contact = (props) => {
                 "message": message
             })
                 .then(() => {
-                    setLoadStatusElemet(<p>Thanks! I will reply ASAP :)</p>);
+                    setLoadStatusElemet(<p style={{ color: "green" }}>Thanks! I will reply ASAP :)</p>);
                     setIsIntTransit(false);
                     setHasSent(false);
 
@@ -106,7 +106,7 @@ export const Contact = (props) => {
                     setMessage("");
                 })
                 .catch(() => {
-                    setLoadStatusElemet(<p>An internal error has occured :(</p>);
+                    setLoadStatusElemet(<p style={{ color: "red" }}>An internal error has occured :(</p>);
                     setIsIntTransit(false);
                     setHasSent(false);
                 });
@@ -123,7 +123,7 @@ export const Contact = (props) => {
                     </div>
                 </Grid>
 
-                <Grid item md={6} sm={12} xs={12}>
+                <Grid item md={6} sm={12} xs={12} id="contact">
                     <div className="contact-right">
                         <h1 className="sectionTitle"> Contact </h1>
                         <CustomInputField
@@ -135,7 +135,7 @@ export const Contact = (props) => {
                             error={name === "" && hasSent}
                             helperText={(name === "" && hasSent) ? "Please provide your name" : `${name.length}/${NAME_MAX_CHARACTERS}`}
                             inputProps={{
-                                maxlength: NAME_MAX_CHARACTERS
+                                maxLength: NAME_MAX_CHARACTERS
                             }}
                             disabled={isInTransit}
                         />
@@ -149,7 +149,7 @@ export const Contact = (props) => {
                             error={email === "" && hasSent}
                             helperText={(email === "" && hasSent) ? "Please provide your email" : `${email.length}/${EMAIL_MAX_CHARACTERS}`}
                             inputProps={{
-                                maxlength: EMAIL_MAX_CHARACTERS
+                                maxLength: EMAIL_MAX_CHARACTERS
                             }}
                             disabled={isInTransit}
                         />
@@ -165,7 +165,7 @@ export const Contact = (props) => {
                             error={message === "" && hasSent}
                             helperText={(message === "" && hasSent) ? "Please provide a friendly message :)" : `${message.length}/${MESSAGE_MAX_CHARACTERS}`}
                             inputProps={{
-                                maxlength: MESSAGE_MAX_CHARACTERS
+                                maxLength: MESSAGE_MAX_CHARACTERS
                             }}
                             disabled={isInTransit}
                         />
@@ -176,48 +176,47 @@ export const Contact = (props) => {
                             endIcon={<SendIcon />}
                             className="contact-button"
                             onClick={handleSubmitClick}
+                            disabled={isInTransit}
                         >
                             Send
                         </Button>
 
                         {/* Area reserved for the load status indicator and text*/}
-                        <div>
+                        <div className="status-container">
                             {loadStatusElement}
                         </div>
 
-                        <div className="contact-info-container">
-                            <div className="contact-info">
-                                <a href="#">
-                                    <EmailIcon className="contact-info-icon" />
-                                    <span> test@email.com </span>
-                                </a>
+                        <div className="contact-info">
+                            <Grid container className="contact-info-container">
 
-                            </div>
+                                <Grid item sm={6} xs={12}>
+                                    <a href="mailto:test@email.com">
+                                        <EmailIcon className="contact-info-icon" />
+                                        <span> test@email.com </span>
+                                    </a>
 
+                                    <a href="tel:123-456-7890">
+                                        <PhoneIcon className="contact-info-icon" />
+                                        <span> 123-456-7890 </span>
+                                    </a>
+                                </Grid>
+                                <Grid item sm={6} xs={12}>
+                                    <a href="https://www.linkedin.com/in/williamhgates/">
+                                        <LinkedInIcon className="contact-info-icon" />
+                                        <span> /in/williamhgates/ </span>
+                                    </a>
 
-                            <div className="contact-info">
-                                <a href="#">
-                                    <LinkedInIcon className="contact-info-icon" />
-                                    <span>test@email.com </span>
-                                </a>
-                            </div>
+                                    <a href="https://github.com/">
+                                        <GitHubIcon className="contact-info-icon" />
+                                        <span> https://github.com </span>
+                                    </a>
 
-                            <div className="contact-info">
-                                <a href="#">
-                                    <GitHubIcon className="contact-info-icon" />
-                                    <span> test@email.com </span>
-                                </a>
-                            </div>
+                                </Grid>
 
-                            <div className="contact-info">
-                                <a href="#">
-                                    <PhoneIcon className="contact-info-icon" />
-                                    <span>test@email.com </span>
-                                </a>
-                            </div>
-
+                            </Grid>
 
                         </div>
+
 
                     </div>
 

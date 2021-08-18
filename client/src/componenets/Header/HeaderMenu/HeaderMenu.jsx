@@ -11,11 +11,11 @@ export const HeaderMenu = (props) => {
             return (
                 <Grid container>
                     <Grid item xs={2}> </Grid>
-                    <HeaderButton> Home </HeaderButton>
-                    <HeaderButton> Experience </HeaderButton>
-                    <HeaderButton> Skills </HeaderButton>
-                    <HeaderButton> Projects </HeaderButton>
-                    <HeaderButton> Contact </HeaderButton>
+                    <HeaderButton scroll_id="home"> Home </HeaderButton>
+                    <HeaderButton scroll_id="experience"> Experience </HeaderButton>
+                    <HeaderButton scroll_id="skills"> Skills </HeaderButton>
+                    <HeaderButton scroll_id="projects"> Projects </HeaderButton>
+                    <HeaderButton scroll_id="contact"> Contact </HeaderButton>
                 </Grid>
             );
         }

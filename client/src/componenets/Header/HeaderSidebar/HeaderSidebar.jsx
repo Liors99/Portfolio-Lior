@@ -17,6 +17,12 @@ const useStyles = makeStyles({
 export const HeaderSidebar = (props) => {
     const styles = useStyles();
 
+
+    const handleButtonClick = (id) => {
+        props.onClose();
+        document.getElementById(id).scrollIntoView(true);
+    }
+
     return (
         <SwipeableDrawer
             anchor={'right'}
@@ -31,11 +37,11 @@ export const HeaderSidebar = (props) => {
 
         >
             <div className="sidebar-container">
-                <h1> Home </h1>
-                <h1> Experience </h1>
-                <h1> Skills </h1>
-                <h1> Projects </h1>
-                <h1> Contact </h1>
+                <h1 onClick={() => handleButtonClick("home")}> Home </h1>
+                <h1 onClick={() => handleButtonClick("experience")}> Experience </h1>
+                <h1 onClick={() => handleButtonClick("skills")}> Skills </h1>
+                <h1 onClick={() => handleButtonClick("projects")}> Projects </h1>
+                <h1 onClick={() => handleButtonClick("contact")}> Contact </h1>
             </div>
 
         </SwipeableDrawer>
