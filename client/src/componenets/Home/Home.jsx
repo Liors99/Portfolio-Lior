@@ -8,8 +8,12 @@ import "./HomeStyles.css";
 
 export const Home = (props) => {
 
+    const handleContactClick = () => {
+        document.getElementById("contact").scrollIntoView(true);
+    }
+
     return (
-        <div className="section full-section">
+        <div className="section full-section" id="home">
             <Grid container style={{ height: "100%" }}>
                 <Grid item md={6} sm={12} xs={12}>
                     <div className="left">
@@ -22,7 +26,7 @@ export const Home = (props) => {
                         <div className="wrapper">
                             <h2>Hi There, I'm</h2>
                             <h1> Your name </h1>
-                            <Button className="contact-btn"> Contact </Button>
+                            <Button className="contact-btn" onClick={handleContactClick}> Contact </Button>
                         </div>
                     </div>
                 </Grid>

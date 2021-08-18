@@ -38,7 +38,7 @@ export const Experience = (props) => {
     }
 
     return (
-        <div className="section">
+        <div className="section" id="experience">
             <h1 className="sectionTitle"> Experience </h1>
 
             <Timeline align={(props.isSmall ? "left" : "alternate")}>
