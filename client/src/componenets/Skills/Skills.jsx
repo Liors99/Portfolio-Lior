@@ -18,7 +18,7 @@ export const Skills = (props) => {
     }
 
     return (
-        <div className="section">
+        <div className="section" id="skills">
             <h1 className="sectionTitle">Skills</h1>
             <div className="skillContainer">
                 <Grid container spacing={1}>

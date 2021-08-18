@@ -35,11 +35,17 @@ function App() {
   return (
     <div>
       <Header isSmall={isWindowSmall} />
-      <Home isSmall={isWindowSmall} />
-      <Experience />
-      <Skills />
-      <Contact isSmall={isWindowSmall} />
-    </div>
+      <div className="app-container" style={{ direction: (isWindowSmall ? 'rtl' : 'ltr') }} >
+        <div className="app-container-inner">
+          <Home isSmall={isWindowSmall} />
+          <Experience isSmall={isWindowSmall} />
+          <Skills />
+          <Contact isSmall={isWindowSmall} />
+        </div>
+
+      </div>
+
+    </div >
   );
 }
 

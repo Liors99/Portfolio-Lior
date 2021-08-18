@@ -2,7 +2,7 @@
     padding-bottom: 50px;
     position: relative;
     top: 70px;
-
+    
 }
 
 .full-section{
@@ -15,3 +15,42 @@
     text-align: center;
     font-size: 60px;
 }
+
+.app-container{
+    position:absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y:scroll; 
+
+    scroll-behavior: smooth;
+}
+
+.app-container-inner{
+    direction: ltr;
+    margin-top: -70px;
+}
+
+/* ===== SCROLLBAR ===== */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3a5299; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #324683; 
+  }

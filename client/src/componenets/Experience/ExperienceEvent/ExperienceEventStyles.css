@@ -1,6 +1,12 @@
 .event-icon{
     background-color: #3F59A8 !important;
-    size: 40px !important;
+}
+
+.event-icon > svg {
+    /*
+    height: auto;
+    width: min(2.5vw, 24px);
+    */
 }
 
 .event-content{
@@ -10,11 +16,18 @@
 .event-content h2{
     margin: 10px;
     color: #3F59A8;
+    /*
+    font-size: min(4vw, 24px);
+    */
 }
 
 .event-content ul{
     padding-bottom: 10px;
     padding-right: 10px;
+    padding-left: 25px;
+    /*
+    font-size: min(3vw, 16px);
+    */
 }
 
 .event-content li{

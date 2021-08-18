@@ -38,7 +38,7 @@ export const ExperienceEvent = (props) => {
 
     return (
         <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent style={!props.isAlternate ? { flex: 0.1 } : {}}>
                 <Typography variant="body2" color="textPrimary">
                     {props.time}
                 </Typography>
@@ -47,7 +47,7 @@ export const ExperienceEvent = (props) => {
                 <TimelineDot className="event-icon">
                     {drawIcon()}
                 </TimelineDot>
-                <TimelineConnector />
+                {!props.isLast ? <TimelineConnector /> : <div></div>}
             </TimelineSeparator>
             <TimelineContent className="event-content">
                 <Paper elevation={3}>
@@ -67,5 +67,7 @@ ExperienceEvent.propTypes = {
     time: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.array,
-    type: PropTypes.string.isRequired
+    type: PropTypes.string.isRequired,
+    isLast: PropTypes.bool.isRequired,
+    isAlternate: PropTypes.bool.isRequired
 };
