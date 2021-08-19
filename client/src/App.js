@@ -5,7 +5,7 @@ import { Experience } from './componenets/Experience/Experience';
 import { Header } from './componenets/Header/Header';
 import { Home } from './componenets/Home/Home';
 import { Skills } from './componenets/Skills/Skills';
-
+import { Projects } from './componenets/Projects/Projects';
 function App() {
 
   const [isWindowSmall, setIsWindowSmall] = useState(false);
@@ -40,6 +40,7 @@ function App() {
           <Home isSmall={isWindowSmall} />
           <Experience isSmall={isWindowSmall} />
           <Skills />
+          <Projects/>
           <Contact isSmall={isWindowSmall} />
         </div>
 
