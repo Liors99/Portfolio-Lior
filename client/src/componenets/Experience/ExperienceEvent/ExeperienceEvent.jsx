@@ -54,6 +54,9 @@ export const ExperienceEvent = (props) => {
                     <h2>
                         {props.name}
                     </h2>
+                    <h3>
+                        {props.company}
+                    </h3>
                     <ul>
                         {props.description.map((desc, i) => { return (<li key={i}> {desc}</li>); })}
                     </ul>
@@ -66,6 +69,7 @@ export const ExperienceEvent = (props) => {
 ExperienceEvent.propTypes = {
     time: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
     description: PropTypes.array,
     type: PropTypes.string.isRequired,
     isLast: PropTypes.bool.isRequired,

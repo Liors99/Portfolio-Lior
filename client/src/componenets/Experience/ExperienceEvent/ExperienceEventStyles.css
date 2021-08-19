@@ -21,6 +21,14 @@
     */
 }
 
+.event-content h3{
+    margin: 10px;
+    color: #000000DE;
+    /*
+    font-size: min(4vw, 24px);
+    */
+}
+
 .event-content ul{
     padding-bottom: 10px;
     padding-right: 10px;

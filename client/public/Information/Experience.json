@@ -1,6 +1,7 @@
 [
     {
         "name": "test",
+        "company": "test company",
         "time": "09-Present",
         "description": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim.",
@@ -10,6 +11,7 @@
     },
     {
         "name": "test",
+        "company": "test company",
         "time": "09-Present",
         "description": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim.",
