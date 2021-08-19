@@ -5,6 +5,7 @@ import "../../App.css";
 import "./ProjectStyles.css";
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
@@ -12,6 +13,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import { CardMedia } from '@material-ui/core';
 
 
 /*
@@ -35,34 +37,31 @@ export const Projects = (props) => {
 
     const drawProjects = () => {
         return projects.map((project, i) => {
-            return (<Grid item xs={6} sm={4} md={3} lg={3} key={i}>
+            return (<Grid item xs={12} sm={6} md = {4} lg={3} key={i}>
                 <Card className="project">
                     <CardActionArea>
-                        <div className = "ImgWrapper">
-                            <img src={"./Assets/Projects/" + project.img } alt=""/> 
-                        </div>
+                        <CardMedia
+                            image={"./Assets/Projects/" + project.img}
+                            style={{ height: 0, paddingTop: '56.25%'}}
+                        />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {project.name}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
-                                <div className="descriptionStyle">
-                                    {project.description}
-                                </div>
-                            </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    <div className="descriptionStyle">
+                                        {project.description}
+                                    </div>
+                                </Typography>
                             <div className="skillTags">
                                 {project.languages.map((language, i) => { return (<Chip label={language} className="tag"/>);})}
                             </div>             
                         </CardContent>
-                        <IconButton aria-label="Github">
-                            {(project.GH !== "" ? <a href={project.GH}> <GitHubIcon className ="iconGHStyle" /> </a> : <div></div>)}
-                        </IconButton>
-                        <IconButton aria-label="Youtube">
-                            {(project.YT !== "" ? <a href={project.YT}> <YouTubeIcon className="iconYTStyle" /> </a> : <div></div>)}
-                        </IconButton>
-                        <IconButton aria-label="website">
-                            {(project.web !== "" ? <a href={project.web}> <LanguageIcon className="iconWebStyle" /> </a> : <div></div>)}
-                        </IconButton>
+                        <CardActions>
+                            {(project.GH !== "" ? <IconButton aria-label="Github"> <a href={project.GH}> <GitHubIcon className ="iconGHStyle" /> </a>  </IconButton> : <div></div>)}
+                            {(project.YT !== "" ? <IconButton aria-label="Youtube"> <a href={project.YT}> <YouTubeIcon className="iconYTStyle" /> </a> </IconButton> : <div></div>)}
+                            {(project.web !== "" ? <IconButton aria-label="website"> <a href={project.web}> <LanguageIcon className="iconWebStyle" /> </a> </IconButton> : <div></div>)}
+                        </CardActions>
                     </CardActionArea>
                 </Card>
             </Grid>)
