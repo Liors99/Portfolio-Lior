@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import "../../App.css";
 import "./SkillsStyles.css";
 
+//const AllSkils = ["HTML", "CSS", "Javascript", "C", "C++", "Python", "Java", "C#"]
+
 
 export const Skills = (props) => {
 

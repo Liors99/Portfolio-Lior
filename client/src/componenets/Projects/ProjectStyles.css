@@ -1,0 +1,47 @@
+.project img{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.ImgWrapper {
+    height: 200px;
+    overflow: hidden;
+}
+
+.projectContainer{
+    margin: auto;
+    width: 80%;
+}
+
+.tag{
+    width: 90px;
+    background-color: #3F59A8 !important;
+    color: white !important;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.skillTags{
+    margin-left: -10px;
+    height: 100px;
+}
+
+.descriptionStyle{
+    width: 100%;
+    height: 175px;
+    overflow-y: auto;   
+}
+
+.project{
+    height: 600px;
+}
+
+.iconYTStyle{
+    color: red !important;
+}
+
+.iconGHStyle{
+    color:black !important;
+}

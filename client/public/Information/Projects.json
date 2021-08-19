@@ -1,0 +1,19 @@
+[
+    {
+        "img": "Proj1.png",
+        "name": "Bomberman",
+        "description":"The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN",
+        "languages":["JavaScript","React"],
+        "GH": "https://github.com/Liors99/Portfolio",
+        "YT": "https://www.youtube.com/watch?v=WV6u_6ZNWkQ"
+    },
+
+    {
+        "img": "Proj2.png",
+        "name": "Database",
+        "description":"Storing our waifus",
+        "languages":["MySQL", "PHP", "HTML", "C", "C++", "C#"],
+        "GH": "https://github.com/Liors99/Portfolio",
+        "YT": "https://www.youtube.com/watch?v=WV6u_6ZNWkQ"
+    }
+]
