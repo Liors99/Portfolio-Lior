@@ -27,6 +27,7 @@ export const Experience = (props) => {
             return (
                 <ExperienceEvent
                     name={data_event.name}
+                    company={data_event.company}
                     time={data_event.time}
                     description={data_event.description}
                     type={data_event.type}
