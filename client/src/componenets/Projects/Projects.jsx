@@ -42,14 +42,15 @@ export const Projects = (props) => {
                             {project.name}
                         </Typography>
                         <div className="descriptionStyle">
+                            <div className={"skillTags"}>
+                                {project.languages.map((language, i) => { return (<Chip label={language} className="tag" key={i} />); })}
+                            </div>
                             <Typography variant="body2" color="textSecondary" component="p">
 
                                 {project.description}
 
                             </Typography>
-                            <div className={"skillTags"}>
-                                {project.languages.map((language, i) => { return (<Chip label={language} className="tag" key={i} />); })}
-                            </div>
+
                         </div>
 
                     </CardContent>
