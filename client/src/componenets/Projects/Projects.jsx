@@ -39,30 +39,26 @@ export const Projects = (props) => {
         return projects.map((project, i) => {
             return (<Grid item xs={12} sm={6} md = {4} lg={3} key={i}>
                 <Card className="project">
-                    <CardActionArea>
-                        <CardMedia
-                            image={"./Assets/Projects/" + project.img}
-                            style={{ height: 0, paddingTop: '56.25%'}}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                {project.name}
+                    <CardMedia
+                        image={"./Assets/Projects/" + project.img}
+                        style={{ height: 0, paddingTop: '56.25%'}}
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            {project.name}
+                        </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p" className="descriptionStyle">
+                                    {project.description}
                             </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    <div className="descriptionStyle">
-                                        {project.description}
-                                    </div>
-                                </Typography>
-                            <div className="skillTags">
-                                {project.languages.map((language, i) => { return (<Chip label={language} className="tag"/>);})}
-                            </div>             
-                        </CardContent>
-                        <CardActions>
-                            {(project.GH !== "" ? <IconButton aria-label="Github"> <a href={project.GH}> <GitHubIcon className ="iconGHStyle" /> </a>  </IconButton> : <div></div>)}
-                            {(project.YT !== "" ? <IconButton aria-label="Youtube"> <a href={project.YT}> <YouTubeIcon className="iconYTStyle" /> </a> </IconButton> : <div></div>)}
-                            {(project.web !== "" ? <IconButton aria-label="website"> <a href={project.web}> <LanguageIcon className="iconWebStyle" /> </a> </IconButton> : <div></div>)}
-                        </CardActions>
-                    </CardActionArea>
+                        <div className="skillTags">
+                            {project.languages.map((language, i) => { return (<Chip label={language} className="tag"/>);})}
+                        </div>             
+                    </CardContent>
+                    <CardActions>
+                        {(project.GH !== "" ? <IconButton aria-label="Github"> <a href={project.GH}> <GitHubIcon className ="iconGHStyle" /> </a>  </IconButton> : <div></div>)}
+                        {(project.YT !== "" ? <IconButton aria-label="Youtube"> <a href={project.YT}> <YouTubeIcon className="iconYTStyle" /> </a> </IconButton> : <div></div>)}
+                        {(project.web !== "" ? <IconButton aria-label="website"> <a href={project.web}> <LanguageIcon className="iconWebStyle" /> </a> </IconButton> : <div></div>)}
+                    </CardActions>
                 </Card>
             </Grid>)
         });
