@@ -13,7 +13,6 @@ import LanguageIcon from '@material-ui/icons/Language';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import YouTubeIcon from '@material-ui/icons/YouTube';
-import { CardMedia } from '@material-ui/core';
 
 
 export const Projects = (props) => {
