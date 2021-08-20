@@ -1,22 +1,42 @@
 [
     {
-        "name": "test",
-        "company": "test company",
-        "time": "09-Present",
+        "name": "IT Applications Intern",
+        "company": "CNOOC International",
+        "time": "09/2020-12/2021",
         "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim."
-        ],
-        "type": "education"
-    },
-    {
-        "name": "test",
-        "company": "test company",
-        "time": "09-Present",
-        "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget accumsan nibh, a placerat elit. Cras in metus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fringilla odio ac consequat convallis. Sed facilisis volutpat pellentesque. Donec semper lorem tempor, lobortis odio et, pharetra massa. Duis quis sodales mauris. Vestibulum eu tellus et libero feugiat consequat ac a nunc. Quisque elementum blandit dignissim."
+            "Developed numerous custom applications and programs for various business users using C# and Python.",
+            "Implemented and maintained multiple integration ETL (Extract, Transform, Load) jobs using Tibco Data Virtualization (TDV) and Business Object Data Services (BODS).",
+            "Implemented multiple integrations using TDV’s REST APIs.",
+            "Practiced version control using Git/GitHub.",
+            "Used ServiceNow to keep track of active tickets, and perform multiple change tickets.",
+            "Collaborated with co-workers and business users to ensure on-time delivery of software solutions."
         ],
         "type": "work"
+    },
+    {
+        "name": "Research Assistant",
+        "company": "iLab - University of Calgary",
+        "time": "05/2020-08/2020",
+        "description": [
+            "Used Unity and C# to create a virtual reality (VR) rehearsal space for actors, and a building vulnerability test platform, developed for the Oculus Quest.",
+            "Managed and facilitated design critique sessions with participants to evaluate the developed prototypes.",
+            "Developed an encoding system using NodeJS to store participants' data directly from the game to a database system (MongoDB).",
+            "Practiced version control using Git/GitHub.",
+            "Managed monetary asset purchases for both projects.",
+            "Proactively participated in weekly team meetings and prepared weekly notes and videos to demonstrate progress."
+        ],
+        "type": "work"
+    },
+    {
+        "name": "BSc of Computer Science - Honours",
+        "company": "University of Calgary",
+        "time": "09/2017-Present",
+        "description": [
+            "Concentration in Information Security",
+            "Concentration in Network Distributed Systems",
+            "Cumulative 3.9/4.0 GPA",
+            "Dean’s List (09/2017 – 09/2018, 09/2018 – 09/2019, 09/2019-09/2020)"
+        ],
+        "type": "education"
     }
 ]

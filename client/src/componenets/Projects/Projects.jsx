@@ -38,10 +38,10 @@ export const Projects = (props) => {
                     />
 
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            {project.name}
-                        </Typography>
                         <div className="descriptionStyle">
+                            <Typography gutterBottom variant="h5" component="h2">
+                                {project.name}
+                            </Typography>
                             <div className={"skillTags"}>
                                 {project.languages.map((language, i) => { return (<Chip label={language} className="tag" key={i} />); })}
                             </div>

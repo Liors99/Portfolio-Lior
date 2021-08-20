@@ -191,9 +191,9 @@ export const Contact = (props) => {
 
                             <Grid item sm={6} xs={12}>
                                 <div className="contact-info">
-                                    <a href="mailto:test@email.com">
+                                    <a href="mailto:lior_s99@outlook.com">
                                         <EmailIcon className="contact-info-icon" />
-                                        <span> test@email.com </span>
+                                        <span> lior_s99@outlook.com </span>
                                     </a>
                                 </div>
 
@@ -202,18 +202,18 @@ export const Contact = (props) => {
                             </Grid>
                             <Grid item sm={6} xs={12}>
                                 <div className="contact-info">
-                                    <a href="tel:123-456-7890">
+                                    <a href="tel:403-383-5628">
                                         <PhoneIcon className="contact-info-icon" />
-                                        <span> 123-456-7890 </span>
+                                        <span> 403-383-5628 </span>
                                     </a>
                                 </div>
 
                             </Grid>
                             <Grid item sm={6} xs={12}>
                                 <div className="contact-info">
-                                    <a href="https://www.linkedin.com/in/williamhgates/">
+                                    <a href="https://www.linkedin.com/in/liorsomin/">
                                         <LinkedInIcon className="contact-info-icon" />
-                                        <span> /in/williamhgates/ </span>
+                                        <span> /in/liorsomin/ </span>
                                     </a>
                                 </div>
 
@@ -222,9 +222,9 @@ export const Contact = (props) => {
                             </Grid>
                             <Grid item sm={6} xs={12}>
                                 <div className="contact-info">
-                                    <a href="https://github.com/">
+                                    <a href="https://github.com/Liors99">
                                         <GitHubIcon className="contact-info-icon" />
-                                        <span> https://github.com </span>
+                                        <span> https://github.com/Liors99 </span>
                                     </a>
                                 </div>
                             </Grid>
