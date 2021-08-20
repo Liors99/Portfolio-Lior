@@ -10,7 +10,7 @@ export const Header = (props) => {
         <AppBar className="Header">
             <Grid container>
                 <Grid item lg={6} md={4} sm={4} xs={5}>
-                    <h3 className="title"> Your name </h3>
+                    <h3 className="title" onClick={() => document.getElementById("home").scrollIntoView(true)}> Lior Somin </h3>
                 </Grid>
 
                 <HeaderMenu isSmall={props.isSmall} />

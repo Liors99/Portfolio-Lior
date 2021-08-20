@@ -22,6 +22,9 @@
     overflow-y: auto; 
 }
 
+.descriptionStyle::-webkit-scrollbar{
+    width: 6px;
+}
 
 .iconYTStyle{
     color: red !important;

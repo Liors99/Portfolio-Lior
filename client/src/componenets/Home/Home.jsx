@@ -18,14 +18,14 @@ export const Home = (props) => {
                 <Grid item md={6} sm={12} xs={12}>
                     <div className="left">
                         <span className="helper"></span>
-                        <img src="Assets/Profile.png" alt="Profile" className={"img-container " + (props.isSmall ? "img-container-vertical" : "img-container-horizontal")} />
+                        <img src="Assets/Profile.jpg" alt="Profile" className={"img-container " + (props.isSmall ? "img-container-vertical" : "img-container-horizontal")} />
                     </div>
                 </Grid>
                 <Grid item md={6} sm={12} xs={12}>
                     <div className={"right " + (props.isSmall ? "right-vertical" : "")}>
                         <div className="wrapper">
                             <h2>Hi There, I'm</h2>
-                            <h1> Your name </h1>
+                            <h1> Lior Somin </h1>
                             <Button className="contact-btn" onClick={handleContactClick}> Contact </Button>
                         </div>
                     </div>

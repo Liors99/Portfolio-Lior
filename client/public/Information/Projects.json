@@ -1,34 +1,121 @@
 [
     {
-        "img": "Proj1.png",
-        "name": "Bomberman",
-        "description": "The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN The bombs chase you..... BIG BRAIN",
+        "img": "Timely.png",
+        "name": "Timely",
+        "description": "Timely is a fully implemented, mobile friendly, social media application where users can create timed-based posts with an expiration time (for example, 5 minutes). After the post expires, it gets deleted forever. Other users can like/dislike a post, which either increases or decrease the expiration time of the post. The application also features admin privileges, and those with this privilege can promote other users, set the like/dislike for a post, change the expiration time for a post, and delete a post. The application uses the MERN stack(MongoDB, ExpressJS, ReactJS, and NodeJS) and uses the Socket.io library to achieve real-time interaction.",
         "languages": [
-            "JavaScript",
-            "React",
-            "JavaScript",
-            "React",
-            "JavaScript",
-            "React"
+            "MongoDB",
+            "ExpressJS",
+            "ReactJS",
+            "NodeJS"
         ],
-        "GH": "https://github.com/Liors99/Portfolio",
-        "YT": "https://www.youtube.com/watch?v=WV6u_6ZNWkQ",
-        "web": " "
+        "GH": "https://github.com/Liors99/Timely",
+        "YT": "",
+        "web": ""
     },
     {
-        "img": "Proj2.png",
-        "name": "Database",
-        "description": "Storing our waifus",
+        "img": "Chatapp.png",
+        "name": "Chat Application",
+        "description": "A React-based, mobile friendly, chat application. Users get assigned a unique username when they first join but can also change their username manually. All users get put into one room, where they can communicate with each other using a central chat. The application is built on ReactJS and utilizes a backend server built on NodeJS and ExpressJS to facilitate the communication. The application utilizes the Socket.io library to achieve real-time communication between all the clients.",
         "languages": [
-            "MySQL",
-            "PHP",
-            "HTML",
-            "C",
-            "C++",
+            "Socket.io",
+            "ExpressJS",
+            "ReactJS",
+            "NodeJS"
+        ],
+        "GH": "https://github.com/Liors99/Chat-Application",
+        "YT": "",
+        "web": "https://lior-chatapp.vercel.app/"
+    },
+    {
+        "img": "Minesweeper.png",
+        "name": "Minesweeper",
+        "description": "A react-based, mobile-friendly, minesweeper application. The application features multiple levels of difficulty, designed to be mobile-friendly so anyone can play on any device.",
+        "languages": [
+            "ReactJS"
+        ],
+        "GH": "https://github.com/Liors99/Minesweeper",
+        "YT": "",
+        "web": "https://lior-minesweeper.herokuapp.com/"
+    },
+    {
+        "img": "Prime.jpg",
+        "name": "Distributed Prime Finding",
+        "description": "A Java project designed to find large prime numbers using a distributed system to speed up the time it takes to find primes for a single computer. Implements various distributed system concepts such as fault tolerance, synchronization, and communication.",
+        "languages": [
+            "Java"
+        ],
+        "GH": "https://github.com/Liors99/Distributed-Search-Prime",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "Chapp.png",
+        "name": "Sous-Chapp Cooking Application",
+        "description": "A GUI-based application designed to provide home cooks with step-by-step instructions on how to cook various recipes using simple and intuitive interface design, implemented using C# and WPF. The application was designed by following the TCSD (Task Centered System Design) methodology, which started from sketches, transitioned to low fidelity prototypes, and eventually became a high fidelity level prototype.",
+        "languages": [
             "C#"
         ],
-        "GH": "https://github.com/Liors99/Portfolio",
-        "YT": "https://www.youtube.com/watch?v=WV6u_6ZNWkQ",
+        "GH": "https://github.com/Liors99/Cooking-App-Sous-Chapp",
+        "YT": "https://www.youtube.com/watch?v=NDVekKtzHUc",
+        "web": ""
+    },
+    {
+        "img": "YNOT.png",
+        "name": "YNOT Digital Printing Website",
+        "description": "A PHP-based project implemented to provide a more simplistic management system for the YNOT Digital Printing company for tracking down employees' requests and approving or denying them. The application features secure login/signup using hashes and salts, and it is secure against against XSS and SQL injections attacks. MySQL is used for database management using phpMyAdmin.",
+        "languages": [
+            "HTML",
+            "PHP",
+            "JavaScript",
+            "SQL"
+        ],
+        "GH": "https://github.com/Liors99/YNOT-Digital-Printing-",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "Battleship.png",
+        "name": "Distributed Battleship game",
+        "description": "A console-based application about the popular battleship game. Users play against each other using a client-server architecute, which is implemented using network sockets, allowing them to play with each other using a TCP connection. The application features a client, a server, and an observer. It also includes registration and login with the server.",
+        "languages": [
+            "Java"
+        ],
+        "GH": "https://github.com/Liors99/Battleship-Project",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "SafeFile.png",
+        "name": "Safe File Transfer",
+        "description": "A console-based application that is designed to transfer a file safely (using cryptographic primitives) from one socket to another one. Features symmetric encryption, hash functions, message authentication codes (MAC), and Diffie Hellman key exchange using RSA.",
+        "languages": [
+            "Java"
+        ],
+        "GH": "https://github.com/Liors99/Safe-File-Transfer",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "Bomberman.png",
+        "name": "Bomberman",
+        "description": "A GUI based application, designed in Java, for the bomber-man game. Features an AI that is implemented using BFS (Breadth-First Search) which is playing against the players.",
+        "languages": [
+            "Java"
+        ],
+        "GH": "https://github.com/Liors99/Bomberman",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "RushHour.png",
+        "name": "Rush Hour Game",
+        "description": "A GUI-based application, designed in Python, for the rush hour game. The application takes in as input a layout (a .txt file) and produces a fully functional game level using PyGame. The user can drag and drop the cubes (vehicles) to play on a computer or a mobile device.",
+        "languages": [
+            "Python"
+        ],
+        "GH": "https://github.com/Liors99/Rush-Hour-Game",
+        "YT": "",
         "web": ""
     }
 ]
