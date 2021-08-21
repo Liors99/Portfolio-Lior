@@ -1,0 +1,28 @@
+[
+    {
+        "img": "BreachMob.png",
+        "name": "BreachMob",
+        "description": "BreachMob is a virtual reality (VR) tool that applies open design principles from information security to physical buildings and structures. BreachMob uses a detailed 3D digital model of a property owner's building. The model is then published as a virtual environment (VE), complete with all applicable security measures and released to the public to test the building's security and find any potential vulnerabilities by completing specified objectives.",
+        "languages": [
+            "Unity",
+            "VR",
+            "C#"
+        ],
+        "GH": "",
+        "YT": "",
+        "web": ""
+    },
+    {
+        "img": "VRS.png",
+        "name": "Virtual Rehearsal Studio",
+        "description": "The Virtual Rehearsal Studio (VRS) is a virtual reality (VR) tool that helps actors prepare and rehearse for a performance using VR. The VRS is capable of displaying text in VR that the actor can toggle off and on, floor markings that can help guide the actor, a 3D body that is attached to the actor for realism, and an in-game camera that can record the rehearsal session for the actor's convenience.",
+        "languages": [
+            "Unity",
+            "VR",
+            "C#"
+        ],
+        "GH": "",
+        "YT": "",
+        "web": ""
+    }
+]

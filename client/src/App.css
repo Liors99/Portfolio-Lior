@@ -10,6 +10,14 @@
     width: 100%;
 }
 
+@media (max-height: 700px) {
+        .full-section{
+          padding-top: 50px;
+          height: max-content;
+          width: 100%;
+      }
+}
+
 .sectionTitle{
     margin-bottom: 50px;
     text-align: center;
