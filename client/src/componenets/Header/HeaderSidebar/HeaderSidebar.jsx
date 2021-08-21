@@ -27,7 +27,7 @@ export const HeaderSidebar = (props) => {
         <SwipeableDrawer
             anchor={'right'}
             open={props.isOpen}
-            swipeAreaWidth={60}
+            swipeAreaWidth={20}
             classes={{ paper: styles.paper }}
             onOpen={() => { props.onOpen() }}
             onClose={() => { props.onClose() }}
