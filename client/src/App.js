@@ -40,7 +40,7 @@ function App() {
           <Home isSmall={isWindowSmall} />
           <Experience isSmall={isWindowSmall} />
           <Skills />
-          <Projects/>
+          <Projects isSmall={isWindowSmall} />
           <Contact isSmall={isWindowSmall} />
         </div>
 
