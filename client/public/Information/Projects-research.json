@@ -15,7 +15,7 @@
     {
         "img": "VRS.png",
         "name": "Virtual Rehearsal Studio",
-        "description": "The Virtual Rehearsal Studio (VRS) is a virtual reality (VR) tool that helps actors prepare and rehearse for a performance using VR. The VRS is capable of displaying text in VR that the actor can toggle off and on, floor markings that can help guide the actor, a 3D body that is attached to the actor for realism, and an in-game camera that can record the rehearsal session for the actor's convenience.",
+        "description": "The Virtual Rehearsal Studio (VRS) is a virtual reality (VR) tool whose objective is to provide performers with the experience of being in a large-scale rehearsal or performance venue while occupying limited physical space. The VRS relies on twentieth-century acting studio techniques to establish thresholding protocols that facilitate state change and promote user immersion. The VRS is capable of displaying text in VR that the actor can toggle off and on, floor markings that can help guide the actor, a 3D body that is attached to the actor for realism, and an in-game camera that can record the rehearsal session for the actor's convenience.",
         "languages": [
             "Unity",
             "VR",
