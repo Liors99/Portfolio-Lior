@@ -1,5 +1,31 @@
 [
     {
+        "img": "AimRNG.png",
+        "name": "AimRNG",
+        "description": "An aim trainer is an application where targets randomly appear on the screen and the user has to click on the middle of the target before they disappear. Aim trainers are usually used to improve performance in video games, but for our project we have repurposed the concept of aim trainers to generate seeds for our PRNG. A major problem with generating random numbers using mouse movements is that people tend to have similar mouse movement patterns, which means that the seeds that are produced from the mouse movement tend to be similar for the same user.",
+        "languages": [
+            "ExpressJS",
+            "ReactJS",
+            "NodeJS"
+        ],
+        "GH": "https://github.com/Liors99/AimRNG",
+        "YT": "",
+        "web": "https://aim-rng-client.herokuapp.com/"
+    },
+    {
+        "img": "Tweeter_analysis.png",
+        "name": "Twitter Cryptocurrency Analysis",
+        "description": "A lot of cryptocurrency giveaways are scams. This project looked into crypto giveaway communities and their interactions on Twitter. 360,000 tweets were acquired through Twitter API, representing a week's worth of giveaway tweets. After data cleaning, the resulted network consisted of 11,528 nodes, which are Cryptocurrency giveaway tweets, and 1,496,822 weighted, undirected links, which represent overlapping audiences (number of people who retweeted both tweets) between the tweets.",
+        "languages": [
+            "Python",
+            "NetworkX",
+            "Gephi"
+        ],
+        "GH": "https://github.com/Liors99/Twitter_Crypto_Analysis",
+        "YT": "",
+        "web": ""
+    },
+    {
         "img": "Timely.png",
         "name": "Timely",
         "description": "Timely is a fully implemented, mobile friendly, social media application where users can create timed-based posts with an expiration time (for example, 5 minutes). After the post expires, it gets deleted forever. Other users can like/dislike a post, which either increases or decrease the expiration time of the post. The application also features admin privileges, and those with this privilege can promote other users, set the like/dislike for a post, change the expiration time for a post, and delete a post. The application uses the MERN stack(MongoDB, ExpressJS, ReactJS, and NodeJS) and uses the Socket.io library to achieve real-time interaction.",
